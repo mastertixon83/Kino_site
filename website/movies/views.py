@@ -10,7 +10,7 @@ from .forms import ReviewForm, RatingForm
 
 
 class GenreYear():
-    """Альтернатива get_context_data ha ha ha"""
+    """Альтернатива get_context_data"""
     """Вывод жанров и годы выхода фильмов"""
     def get_genres(self):
         return Genre.objects.all()
