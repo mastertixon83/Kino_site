@@ -110,7 +110,7 @@ class RatingStarAdmin(admin.ModelAdmin):
 
 @admin.register(Rating)
 class RatingAdmin(admin.ModelAdmin):
-    """Регистрация модели рейтинг"""
+    """Регистрация модели рейтинга"""
     save_on_top = True
     save_as = True
     save_as_continue = True
