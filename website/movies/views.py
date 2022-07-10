@@ -92,7 +92,7 @@ class JsonFilterMoviesView(ListView):
 
 
 class AddStarRating(View):
-    """Добавление рейтинга фильму вот это пиздец"""
+    """Добавление рейтинга фильму"""
 
     def get_client_ip(self, request):
         x_forwarded_for = request.META.get('HTTP_X_FORWARDED_FOR')
