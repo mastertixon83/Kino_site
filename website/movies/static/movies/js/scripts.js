@@ -22,7 +22,7 @@ forms.addEventListener('submit', function (e) {
 });
 
 function render(data) {
-    // Рендер шаблона нихуя
+    // Рендер шаблона
     let template = Hogan.compile(html);
     let output = template.render(data);
 
