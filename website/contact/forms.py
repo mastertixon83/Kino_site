@@ -9,5 +9,8 @@ class ContactForm(forms.ModelForm):
         model = Contact
         fields = ['email']
         widgets = {
-            'email': forms.TextInput(attrs={'class': 'editContent'})
+            'email': forms.TextInput(attrs={'class': 'editContent', 'placeholder': 'Your Email...'})
+        }
+        labels = {
+            'email': ''
         }
